@@ -22,6 +22,7 @@
         <TextBlock x:Name="lblDuration" HorizontalAlignment="Left" Margin="392,293,0,0" TextWrapping="Wrap" Text="0:00" VerticalAlignment="Top"/>
         <Button x:Name="btnPause" Content="Pause" HorizontalAlignment="Left" Margin="101,38,0,0" VerticalAlignment="Top" Width="75" IsEnabled="False" Click="btnPause_Click"/>
         <ComboBox x:Name="cbDispositivos" HorizontalAlignment="Left" Margin="282,38,0,0" VerticalAlignment="Top" Width="200"/>
+        <Slider x:Name="sldVolumen" HorizontalAlignment="Left" Margin="10,72,0,0" VerticalAlignment="Top" Width="75" Height="24" ValueChanged="sldVolumen_ValueChanged" Maximum="1" IsDirectionReversed="True" Value="0.5" Thumb.DragCompleted="sldVolumen_DragCompleted"/>
 
     </Grid>
 </Window>
